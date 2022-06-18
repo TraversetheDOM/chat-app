@@ -29,7 +29,7 @@ The users would be able to:
 
 _A screenshot showing the mobile view of the design_
 
-![Desktop View](./screenshots/Destop.jpeg)
+![Desktop View](./screenshots/Desktop.jpeg)
 
 _A screenshot showing the desktop view of the deign_
 
