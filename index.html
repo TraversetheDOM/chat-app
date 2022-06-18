@@ -1,51 +1,158 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | [Challenge Name Here]</title>
+    <!-- 
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
-</head>
-<body>
 
-  Samuel Green
-  Available to Walk
+      Esternal CSS Links 
 
-  That sounds great. I’d be happy with that.
 
-  Could you send over some pictures of your dog, please?
+     -->
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/queries.css" />
 
-  Here are a few pictures. She’s a happy girl!
+    <!-- 
 
-  Can you make it?
 
-  She looks so happy! The time we discussed works. How long shall I take her out for?
+      Google Fonts Links
 
-  30 minute walk
-  $29
 
-  1 hour walk
-  $49
+      -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
 
-  Type a message…
+    <!-- 
 
-  Simple booking
 
-  Stay in touch with our dog walkers through the chat interface. This makes it easy to 
-  discuss arrangements and make bookings. Once the walk has been completed you can rate 
-  your walker and book again all through the chat.
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
-</body>
+      Icons Link 
+
+
+     -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <title>Frontend Mentor | [Challenge Name Here]</title>
+  </head>
+  <body>
+    <!-- 
+
+      MAIN
+
+     -->
+    <main>
+      <section class="section_chat-app">
+        <div class="phone">
+          <div class="message">
+            <div class="header">
+              <div class="camera"></div>
+              <div class="user_header">
+                <i class="bx bx-chevron-left"></i>
+                <img
+                  src="images/avatar.jpg"
+                  alt="avatar images"
+                  class="avatar_img"
+                />
+                <div class="user_info">
+                  <h2 class="username">Samuel Green</h2>
+                  <p class="status">Available to Walk</p>
+                </div>
+                <i class="bx bx-dots-vertical-rounded"></i>
+              </div>
+            </div>
+            <div class="left_chat-1">
+              <p>That sounds great. I’d be happy with that.</p>
+              <p>Could you send over some pictures of your dog, please?</p>
+            </div>
+            <div class="right_chat">
+              <div class="dog_images">
+                <img src="images/dog-image-1.jpg" alt="dog image" />
+                <img src="images/dog-image-2.jpg" alt="dog image " />
+                <img src="images/dog-image-3.jpg" alt="dog images" />
+              </div>
+              <p class="right_chat_1">
+                Here are a few pictures. She’s a happy girl!
+              </p>
+              <p class="right_chat_2">Can you make it?</p>
+            </div>
+            <div class="left_chat-2">
+              <p>
+                She looks so happy! The time we discussed works. How long shall
+                I take her out for?
+              </p>
+            </div>
+            <div class="pricing_options">
+              <i class="bx bx-radio-circle"></i>
+              <p>30 minute walk</p>
+              <p>$29</p>
+            </div>
+            <div class="pricing_options">
+              <i class="bx bx-radio-circle"></i>
+              <p>1 hour walk</p>
+              <p>$49</p>
+            </div>
+            <form class="form">
+              <label for="chat" class="sr-only">Enter your chat</label>
+              <input
+                type="text"
+                id="chat"
+                name="chat"
+                placeholder="Type a message…"
+              />
+              <button type="button">
+                <i class="bx bx-chevron-right"></i>
+              </button>
+            </form>
+          </div>
+        </div>
+
+        <div class="text-box">
+          <h1 class="text_title">Simple booking</h1>
+          <p class="text_description">
+            Stay in touch with our dog walkers through the chat interface. This
+            makes it easy to discuss arrangements and make bookings. Once the
+            walk has been completed you can rate your walker and book again all
+            through the chat.
+          </p>
+        </div>
+      </section>
+
+      <!-- 
+
+
+        FOOTER
+
+       -->
+
+      <footer class="footer">
+        <div class="container">
+          <p class="attribution">
+            Challenge by
+            <a
+              href="https://www.frontendmentor.io?ref=challenge"
+              target="_blank"
+              >Frontend Mentor</a
+            >. Coded by
+            <a href="https://github.com/salutDami" target="_blank">SalutDami</a
+            >.
+          </p>
+        </div>
+      </footer>
+    </main>
+  </body>
 </html>
