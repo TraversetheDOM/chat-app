@@ -35,8 +35,8 @@ _A screenshot showing the desktop view of the deign_
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/salutDami/chat-app)
-- Live Site URL: [Add live site URL here](https://salutdami.github.io/chat-app/)
+- Solution URL: [Add solution URL here](https://github.com/TraversetheDOM/chat-app)
+- Live Site URL: [Add live site URL here](https://TraversetheDOM.github.io/chat-app/)
 
 ## My process
 
