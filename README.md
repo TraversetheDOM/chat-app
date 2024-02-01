@@ -35,8 +35,8 @@ _A screenshot showing the desktop view of the deign_
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/TraversetheDOM/chat-app)
-- Live Site URL: [Add live site URL here](https://TraversetheDOM.github.io/chat-app/)
+- Solution URL: [Add solution URL here](https://github.com/stephenikuomola/chat-app)
+- Live Site URL: [Add live site URL here](https://stephenikuomola.github.io/chat-app/)
 
 ## My process
 
@@ -99,6 +99,6 @@ I woud still keep practicing my CSS. I wasn't able to add some animations for wh
 
 ## Author
 
-- Twitter - [@\_salutDami](https://www.twitter.com/_salutDami)
+- Twitter - [@\_salutDami](https://www.twitter.com/stephenikuomola)
 - Linkedin- [Ikuomola Stephen](https://www.linkedin.com/in/ikuomola-stephen/)
-- Frontend Mentor - [@salutDami](https://www.frontendmentor.io/profile/salutDami)
+- Frontend Mentor - [@salutDami](https://www.frontendmentor.io/profile/stephenikuomola)
